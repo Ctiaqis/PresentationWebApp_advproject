@@ -87,7 +87,7 @@
                                 <i class="bi bi-link-45deg" style="color:var(--text-muted);"></i>
                             </span>
                             <input type="text" class="form-control" value="{{ $tutorial->url_presentation }}" readonly
-                                   style="border-left:none;background:#f8fafc;color:var(--text-secondary);">
+                                   style="border-left:none;background:#fff5e4;color:var(--text-secondary);">
                         </div>
                     </div>
 
@@ -98,7 +98,7 @@
                                 <i class="bi bi-link-45deg" style="color:var(--text-muted);"></i>
                             </span>
                             <input type="text" class="form-control" value="{{ $tutorial->url_finished }}" readonly
-                                   style="border-left:none;background:#f8fafc;color:var(--text-secondary);">
+                                   style="border-left:none;background:#fff5e4;color:var(--text-secondary);">
                         </div>
                     </div>
 
