@@ -49,7 +49,7 @@
                         </label>
 
                         @if($detail->gambar)
-                            <div class="mb-2 p-3 rounded-3" style="background:#f8f9ff;border:1px dashed var(--border-color);display:inline-block;">
+                            <div class="mb-2 p-3 rounded-3" style="background:#fff5e4;border:1px dashed var(--border-color);display:inline-block;">
                                 <img src="{{ asset('storage/' . $detail->gambar) }}"
                                      alt="Gambar detail"
                                      style="max-width:180px;border-radius:8px;"
