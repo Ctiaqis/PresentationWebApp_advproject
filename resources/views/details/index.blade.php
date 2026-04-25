@@ -91,7 +91,7 @@
 
                             <td>
                                 @if($detail->code)
-                                    <code style="background:#f1f5f9;padding:0.2rem 0.5rem;border-radius:6px;font-size:0.78rem;color:#6d28d9;">
+                                    <code style="background:#fff5e4;padding:0.2rem 0.5rem;border-radius:6px;font-size:0.78rem;color:#850e35;">
                                         {{ \Illuminate\Support\Str::limit($detail->code, 50) }}
                                     </code>
                                 @else
