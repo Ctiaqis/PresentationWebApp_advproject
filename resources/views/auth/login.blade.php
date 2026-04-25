@@ -16,7 +16,7 @@
         body {
             min-height: 100vh;
             margin: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            background: linear-gradient(135deg, #850e35 0%, #ee6983 50%, #ffc4c4 100%);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -74,13 +74,13 @@
         .login-icon {
             width: 64px;
             height: 64px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #850e35 0%, #ee6983 100%);
             border-radius: 16px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 1.25rem;
-            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.35);
+            box-shadow: 0 8px 24px rgba(133, 14, 53, 0.35);
         }
 
         .login-icon i {
@@ -97,7 +97,7 @@
         }
 
         .login-header p {
-            color: #64748b;
+            color: #6b5e5e;
             font-size: 0.9rem;
             margin: 0;
         }
@@ -109,25 +109,25 @@
         .form-label {
             font-weight: 600;
             font-size: 0.8rem;
-            color: #64748b;
+            color: #6b5e5e;
             text-transform: uppercase;
             letter-spacing: 0.06em;
             margin-bottom: 0.4rem;
         }
 
         .form-control {
-            border: 1.5px solid #e2e8f0;
+            border: 1.5px solid #f0d6d6;
             border-radius: 10px;
             padding: 0.7rem 1rem 0.7rem 2.8rem;
             font-size: 0.9rem;
             transition: all 0.25s ease;
-            background-color: #f8fafc;
+            background-color: #fff5e4;
         }
 
         .form-control:focus {
-            border-color: #667eea;
+            border-color: #ee6983;
             background-color: #fff;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+            box-shadow: 0 0 0 3px rgba(238, 105, 131, 0.2);
         }
 
         .input-group-icon {
@@ -139,7 +139,7 @@
             left: 1rem;
             top: 50%;
             transform: translateY(-50%);
-            color: #94a3b8;
+            color: #a89494;
             font-size: 1rem;
             z-index: 5;
             transition: color 0.25s ease;
@@ -147,12 +147,12 @@
 
         .input-group-icon .form-control:focus ~ .input-icon,
         .input-group-icon .form-control:focus + .input-icon {
-            color: #667eea;
+            color: #ee6983;
         }
 
         .btn-login {
             width: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #850e35 0%, #ee6983 100%);
             border: none;
             color: #fff;
             font-weight: 600;
@@ -160,13 +160,13 @@
             padding: 0.75rem;
             border-radius: 10px;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.35);
+            box-shadow: 0 4px 16px rgba(133, 14, 53, 0.35);
             letter-spacing: 0.02em;
         }
 
         .btn-login:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.45);
+            box-shadow: 0 8px 25px rgba(133, 14, 53, 0.45);
             color: #fff;
         }
 
@@ -197,8 +197,8 @@
         }
 
         .alert-danger {
-            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
-            color: #991b1b;
+            background: linear-gradient(135deg, #ffc4c4 0%, #ffe0e0 100%);
+            color: #5c0a1e;
         }
 
         .footer-text {
@@ -216,7 +216,7 @@
             transform: translateY(-50%);
             background: none;
             border: none;
-            color: #94a3b8;
+            color: #a89494;
             cursor: pointer;
             z-index: 5;
             padding: 0;
@@ -225,7 +225,7 @@
         }
 
         .password-toggle:hover {
-            color: #667eea;
+            color: #ee6983;
         }
     </style>
 </head>
