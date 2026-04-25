@@ -112,11 +112,11 @@
                             <td>
                                 @if($detail->status === 'show')
                                     <span class="badge-status badge-show">
-                                        <i class="bi bi-eye-fill me-1"></i>Show
+                                        <i class="bi bi-eye-fill"></i>Show
                                     </span>
                                 @else
                                     <span class="badge-status badge-hide">
-                                        <i class="bi bi-eye-slash me-1"></i>Hide
+                                        <i class="bi bi-eye-slash"></i>Hide
                                     </span>
                                 @endif
                             </td>

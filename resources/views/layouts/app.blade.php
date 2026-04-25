@@ -331,12 +331,17 @@
 
         /* ── BADGES ────────────────────────────────────────── */
         .badge-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25em;
             padding: 0.35em 0.85em;
             border-radius: 50px;
             font-weight: 600;
             font-size: 0.75rem;
             letter-spacing: 0.03em;
             text-transform: uppercase;
+            white-space: nowrap;
+            line-height: 1;
         }
 
         .badge-show {
