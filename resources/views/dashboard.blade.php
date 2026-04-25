@@ -32,7 +32,7 @@
                         <i class="bi bi-key me-1" style="color:var(--primary-color);"></i>Refresh Token
                     </label>
                     <textarea class="form-control" rows="4" readonly
-                              style="font-family:'Fira Code','Cascadia Code',monospace;font-size:0.8rem;background:#f8fafc;"
+                              style="font-family:'Fira Code','Cascadia Code',monospace;font-size:0.8rem;background:#fff5e4;"
                     >{{ session('refreshToken') }}</textarea>
                 </div>
             </div>
